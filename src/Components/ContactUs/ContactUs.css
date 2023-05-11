@@ -1,0 +1,207 @@
+.contactusheading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2555a4;
+}
+.contactuspara {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  color: #333944;
+}
+.contactuscnt {
+  background-color: #a3d4ff;
+}
+.headingandimgctnincu {
+  padding-left: 3.31rem;
+}
+
+.vehiclefront11 {
+  background-color: transparent;
+}
+.courierbtn {
+  width: 15.93rem;
+  height: 3.5rem;
+  background: #2555a4;
+  color: #ffffff;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+input::placeholder {
+  color: #333944 !important;
+  font-size: 1rem;
+  padding-left: 1rem;
+  font-weight: 400;
+}
+textarea::placeholder {
+  color: #333944 !important;
+  font-size: 1rem;
+  padding-left: 1rem;
+  font-weight: 400;
+}
+.businessesbtn {
+  width: 15.93rem;
+  height: 3.5rem;
+  background: #a3d4ff;
+  color: #2555a4;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.colcntincu {
+  padding: 1.25rem;
+}
+
+.formcnt {
+  width: 36.06rem;
+  height: 34.87rem;
+}
+.mobileinput {
+  width: 13.43rem;
+  border: none;
+  border-bottom: 0.5px solid #c2c4c7;
+  outline: none;
+  background: transparent;
+  box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22);
+  margin-right: 3rem;
+}
+.emailinput {
+  width: 13.43rem;
+  border: none;
+  border-bottom: 1px solid #333944;
+  outline: none;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22);
+}
+.textareacnt {
+  margin-top: 4.375rem;
+  width: 29.86rem;
+  border: none;
+  border-bottom: 1px solid #c2c4c7;
+  outline: none;
+  background: transparent;
+  box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22);
+}
+.btnandformcnt {
+  margin-top: 1.68rem;
+  margin-left: 2.18rem;
+}
+.btncontainerincntctus {
+  margin-bottom: 9rem;
+}
+.sendmessagebtn {
+  width: 14.5rem;
+  height: 3.5rem;
+  border-radius: 4px;
+  background: #f11908;
+  color: #ffffff;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 4rem;
+}
+.ArrowRightimg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.formcntincuformobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .formcntincuformobile {
+    display: block;
+  }
+  .formcntincu {
+    display: none;
+  }
+  .contactusheading {
+    font-size: 1.87rem;
+    font-weight: 600;
+    color: #e9eaeb;
+  }
+  .headingandimgctnincu {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .contactuspara {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .vehiclefront11 {
+    display: none;
+  }
+  .contactuscnt {
+    background-image: url("../../Images/contactusmobilebg.png");
+    background-size: cover;
+  }
+  .mobileinput {
+    display: none;
+  }
+  .textareacnt {
+    margin-top: 0rem;
+    width: 26.86rem;
+    border: 1px solid #333944;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22);
+  }
+
+  .firstnamemobileinput {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid #eae8e8;
+  }
+  .formcnt {
+    width: 21.87rem;
+  }
+  .card {
+    background: transparent;
+  }
+  .courierbtn {
+    width: 10.37rem;
+    height: 3.5rem;
+  }
+  .businessesbtn {
+    width: 11.37rem;
+    height: 3.5rem;
+  }
+  .btnandformcnt {
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  .btncontainerincntctus {
+    margin-bottom: 0rem;
+  }
+  /* .formcntincuformobile{
+    padding-left: 1.68rem;
+    padding-right: 1.68rem;
+  } */
+  input::placeholder {
+    color: #eae8e8 !important;
+    font-size: 0.875rem;
+    padding-left: 1rem;
+  }
+  .inputlabeltext {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #f6f6f7;
+  }
+  .textareainmobile {
+    width: 20rem;
+    height: 7.5rem;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid #eae8e8;
+  }
+  textarea::placeholder {
+    color: #eae8e8 !important;
+    font-size: 0.875rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+}

@@ -1,0 +1,60 @@
+.oustpara {
+  line-height: 33px;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+}
+.roundedspan {
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 1px #1464f4;
+  color: white;
+  text-align: center;
+  display: block;
+  background-color: #2555a4;
+}
+.oneliner {
+  margin-left: 3.75rem;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  /* line-height: 32px; */
+}
+.onelinerblpara {
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-left: 5.8rem;
+}
+.rngcnt {
+  background-color: #f3faff;
+}
+
+@media screen and (max-width: 767px) {
+  .completecycleheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .oustpara {
+    line-height: normal;
+    margin-top: 0rem;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .rngcnt {
+    padding-top: 1.6rem;
+    padding-bottom: 3.2rem;
+  }
+  .oneliner {
+    margin-left: 0.75rem;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .onelinerblpara {
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-left: 2.8rem;
+  }
+}

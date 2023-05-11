@@ -1,0 +1,141 @@
+.fastdeliveryimg {
+  width: 18.31rem;
+  height: 8.875rem;
+}
+.DeliverAnythingpara {
+  font-size: 1.875rem;
+  line-height: 43px;
+  font-weight: 400;
+  color: #2555a4;
+}
+.addressheading {
+  font-weight: 600;
+  font-size: 18px;
+  color: #2555a4;
+  text-transform: uppercase;
+}
+.emailinput {
+  width: 17.5rem;
+  height: 3rem;
+  border-radius: 4px;
+  padding: 10px 8px;
+  border-color: rgba(163, 212, 255, 0.13);
+}
+
+.footercnt {
+  background-color: rgba(163, 212, 255, 0.13);
+  padding-left: 4.25rem;
+  padding-right: 4.25rem;
+}
+
+input::placeholder {
+  font-size: 18px;
+  line-height: 28px;
+  color: #a3aac2;
+  font-weight: 400;
+}
+
+.suscribebtn {
+  width: 8.5rem;
+  height: 3rem;
+  border-radius: 4px;
+  background: #2555a4;
+  color: #ffffff;
+  border: none;
+}
+
+.imgsocial {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.fdimgandhdcnt {
+  margin-top: -1.2rem;
+}
+
+.lastfootercnt {
+  background-color: #2555a4;
+  /* line-height: 32px; */
+
+  height: 4.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastfooterpara {
+  font-weight: 800;
+  font-size: 1.125rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .fastdeliveryimg {
+    width: 8.125rem;
+    height: 3.93rem;
+  }
+  .fdimgandhdcnt {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .DeliverAnythingpara {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .addresscnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .addressheading {
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
+  .addresspara {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    color: #333944;
+    margin-left: 0.2rem;
+  }
+  .addressheading::first-letter {
+    text-transform: uppercase;
+  }
+  .addressheading:not(::first-letter) {
+    text-transform: lowercase;
+  }
+  .inputandbtncnt {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.875rem;
+    margin-bottom: 0.875rem;
+  }
+  .newsltrheading {
+    display: none;
+  }
+  .emailinput {
+    width: 14rem;
+    height: 2.56rem;
+    border-radius: 4px;
+    padding: 10px 8px;
+    border-color: rgba(163, 212, 255, 0.13);
+  }
+
+  .suscribebtn {
+    width: 8.5rem;
+    height: 2.56rem;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+  }
+  .socialcnt {
+    text-align: center;
+  }
+  .lastfooterpara {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #ffffff;
+  }
+  .footercnt {
+    padding-left: 1.43rem;
+    padding-right: 1.43rem;
+  }
+}

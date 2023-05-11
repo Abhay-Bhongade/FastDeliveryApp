@@ -1,0 +1,28 @@
+.imgcntinoursolution {
+  margin-top: 3.43rem;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  width: 18.75rem;
+  height: 18.75rem;
+}
+.imgcntinoursolution:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .imgcntinoursolution {
+    width: 11rem;
+    height: 11rem;
+  }
+  .intelogisolheading {
+    text-align: center;
+  }
+  .oursolpara {
+    text-align: center;
+    font-size: 14px;
+  }
+  .imgcntinoursolution {
+    margin-top: 1rem;
+  }
+}
