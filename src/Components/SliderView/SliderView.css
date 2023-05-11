@@ -1,0 +1,23 @@
+.cmnimg {
+  width: 10rem;
+  height: 5rem;
+}
+.imgcntinslider {
+  height: 7.9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.slidercnt {
+  background: rgba(163, 212, 255, 0.5);
+  height: 7.9rem;
+}
+.slidercntmobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .slidercnt {
+    display: none;
+  }
+}

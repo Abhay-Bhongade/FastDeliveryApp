@@ -1,11 +1,11 @@
 import React from "react";
 import vehicleback from "../../Images/vehicleback.png";
 import Navbgimg from "../../Images/Navbgimg.png";
-import leftsideimgcnt2mobile from "../../Images/leftsideimgcnt2mobile.png";
+import Navbgimgformobile from "../../Images/Navbgimgformobile.png";
 
 import rightsidehmpgimg from "../../Images/rightsidehmpgimg.png";
 import FastDeliverArrow1 from "../../Images/FastDeliverArrow1.png";
-import arrowandbutton from "../../Images/arrowandbutton.png";
+import Tooltipimg2 from "../../Images/Tooltipimg2.png";
 
 import "../HomePage/HomePage.css";
 
@@ -15,15 +15,11 @@ const HomePage = () => {
       <div className="container-fluid">
         <img src={Navbgimg} className="card-img-top Navbgimg" alt="..." />
         <img
-          src={leftsideimgcnt2mobile}
-          className="card-img-top leftsideimgcnt2mobile"
+          src={Navbgimgformobile}
+          className="card-img-top Navbgimgformobile"
           alt="..."
         />
-        <img
-          src={rightsidehmpgimg}
-          className="card-img-top rightsidehmpgimg"
-          alt="..."
-        />
+
         <div className="row">
           <div className="col-md-6">
             <div className="homepgheadingcontainer">
@@ -42,7 +38,11 @@ const HomePage = () => {
               <button className="registerherebtn ms-4" type="button">
                 Register Here
               </button>
-              {/* <img src={arrowandbutton} className="card-img-top arrowandbuttonimg" alt="..." /> */}
+              {/* <img
+                src={Tooltipimg2}
+                className="card-img-top arrowandbuttonimg"
+                alt="..."
+              /> */}
             </div>
           </div>
           <div className="col-md-6">

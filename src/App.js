@@ -10,6 +10,7 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import Footer from "./Components/Footer/Footer";
 import Navigation from "./Components/Navigation/Navigation";
 import HomePage from "./Components/HomePage/HomePage";
+import SliderView from "./Components/SliderView/SliderView";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       {/* <Navbars /> */}
       <Navigation />
       <HomePage />
+      <SliderView />
       <OurStory />
       <CompleteCycle />
       <OurSolutions />
