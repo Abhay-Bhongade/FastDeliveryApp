@@ -7,6 +7,7 @@
 }
 .btndn {
   margin-right: 2.56rem;
+  font-weight: 600;
 }
 .navcontainer {
   padding-left: 2.125rem;
@@ -23,6 +24,9 @@
   height: 4.18rem;
   padding-bottom: 0.43rem;
   padding-left: 2.125rem;
+}
+.bookmeeting {
+  font-weight: 600 !important;
 }
 
 .navcntmain {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import woocommercesvg from "../../Images/woocommercesvg.svg";
+import wclogo from "../../Images/wclogo.png";
 import shophipysvg from "../../Images/shophipysvg.svg";
 import micros1 from "../../Images/micros1.png";
 import oraclesvg from "../../Images/oraclesvg.svg";
@@ -48,7 +48,7 @@ const SliderView = () => {
 
   return (
     <>
-      <div className="container-fluid slidercnt">
+      <div className="container-fluid slidercnt mt-5">
         <div className="row">
           <div className="col-md-12">
             <div className="imgcntinslider">
@@ -58,7 +58,7 @@ const SliderView = () => {
                 alt="..."
               />{" "}
               <img
-                src={woocommercesvg}
+                src={wclogo}
                 className="card-img-top cmnimg"
                 alt="..."
               />{" "}
@@ -87,7 +87,7 @@ const SliderView = () => {
               </div>
               <div>
                 <img
-                  src={woocommercesvg}
+                  src={wclogo}
                   className="card-img-top cmnimg"
                   alt="..."
                 />{" "}

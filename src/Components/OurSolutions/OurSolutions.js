@@ -15,7 +15,7 @@ const OurSolutions = () => {
             <h2 className="intelogisolheading">
               Integrated Logistics Solutions
             </h2>
-            <p className="oursolpara">
+            <p className="oursolpara mb-md-5 mb-0">
               We offer integrated logistics solutions that cover every aspect of
               your supply chain, from transportation and warehousing to
               inventory management and order fulfillment.
