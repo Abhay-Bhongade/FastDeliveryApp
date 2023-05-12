@@ -97,7 +97,7 @@ const HomePage = () => {
             <div className="homepgheadingcontainer">
               <h1 className="homepgheading">We almost deliver </h1>
               <h1 className="homepgheading headingoverlap">
-                anything, anywhere...
+                anything,anywhere...
               </h1>
             </div>
             <div className="btncontainer">
