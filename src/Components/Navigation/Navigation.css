@@ -53,6 +53,7 @@
   width: 100%;
   background-color: #ffffff;
   padding: 1rem;
+  z-index: 3;
 }
 
 .hamburger-menu {

@@ -7,7 +7,7 @@ const CompleteCycle = () => {
         <div className="row px-md-5">
           <div className="col-md-12">
             <h2 className="completecycleheading">Complete Cycle</h2>
-            <p className="oustpara mb-md-5 mb-0">
+            <p className="oustpara mb-md-5 mb-3">
               We can manage end to end Logistics helps its entrepreneurs connect
               with mentors and associates in the global network through a
               targeted and needs-based approach. Connections include mentoring.

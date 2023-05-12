@@ -250,7 +250,13 @@ textarea::placeholder {
     height: auto;
   }
   .btncntincu {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+    width: 14.5rem;
+    height: 3.5rem;
+    width: 88vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .contactuscnt1 {
     background-image: url("../../Images/contactusmobilebg.png");
