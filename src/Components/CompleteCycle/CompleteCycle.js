@@ -39,7 +39,7 @@ const CompleteCycle = () => {
             <div className="box mt-md-5 mt-1">
               <div style={{ display: "flex" }}>
                 <h6 className="roundedspan">03</h6>{" "}
-                <h5 className="oneliner">communication</h5>
+                <h5 className="oneliner">Communication</h5>
               </div>
               <p className="onelinerblpara">
                 automated customer communication with notifications and updates
@@ -84,7 +84,7 @@ const CompleteCycle = () => {
             <div className="box mt-md-5 mt-1">
               <div style={{ display: "flex" }}>
                 <h6 className="roundedspan">07</h6>{" "}
-                <h5 className="oneliner">reliable and timely</h5>
+                <h5 className="oneliner">Reliable and timely</h5>
               </div>
               <p className="onelinerblpara">
                 reliable and timely delivery service to ensure your packages are
