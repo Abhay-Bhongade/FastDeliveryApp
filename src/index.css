@@ -5,7 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  border: 6px solid yellow;
+  /* border: 6px solid yellow; */
   font-family: "Montserrat", sans-serif;
 }
 
