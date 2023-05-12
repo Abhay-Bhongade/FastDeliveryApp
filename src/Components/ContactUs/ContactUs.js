@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowRight from "../../Images/ArrowRight.png";
-import vehiclefront11 from "../../Images/vehiclefront11.png";
+import contactusvanimg from "../../Images/contactusvanimg.png";
 import contactuspagevan from "../../Images/contactuspagevan.png";
 
 import "../ContactUs/ContactUs.css";
@@ -133,7 +133,6 @@ const ContactUs = () => {
                         alt="..."
                       />
                     </button>
-                  
                   </div>
                 </form>
               </div>

@@ -75,7 +75,7 @@ import homepagevan from "../../Images/homepagevan.png";
 import Navbgimg from "../../Images/Navbgimg.png";
 import Navbgimgformobile from "../../Images/Navbgimgformobile.png";
 
-import vehicleback1mobile from "../../Images/vehicleback1mobile.svg";
+import homepagetooltip from "../../Images/homepagetooltip.png";
 import FastDeliverArrow1 from "../../Images/FastDeliverArrow1.png";
 import Tooltipa1 from "../../Images/Tooltipa1.png";
 
@@ -113,7 +113,7 @@ const HomePage = () => {
                 Register Here
               </button>
               <img
-                src={Tooltipa1}
+                src={homepagetooltip}
                 className="card-img-top arrowandbuttonimg"
                 alt="..."
               />

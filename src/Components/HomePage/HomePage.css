@@ -84,7 +84,8 @@
   /* border: 1px solid black; */
   width: 360px;
   height: 200px;
-  margin-left: 3.7rem;
+  /* margin-left: 3.7rem; */
+  margin-left: -1.3rem;
 }
 
 .headingoverlap {
