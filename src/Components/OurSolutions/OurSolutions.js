@@ -12,7 +12,7 @@ const OurSolutions = () => {
       <div className="container py-md-5 py-4 mb-5 px-0">
         <div className="row">
           <div className="col-md-12 px-0">
-            <h2 className="intelogisolheading ">
+            <h2 className="intelogisolheading px-2 px-md-0 ">
               Integrated Logistics Solutions
             </h2>
             <p className="oursolpara mb-md-5 mb-0 px-2 px-md-0">
