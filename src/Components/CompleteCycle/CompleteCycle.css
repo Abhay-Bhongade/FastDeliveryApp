@@ -1,5 +1,5 @@
 .oustpara {
-  line-height: 33px;
+  line-height: 30px;
   margin-top: 2rem;
   letter-spacing: 1px;
 }
@@ -29,6 +29,11 @@
 }
 .rngcnt {
   background-color: #f3faff;
+}
+.completecycleheading {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
 }
 
 @media screen and (max-width: 767px) {

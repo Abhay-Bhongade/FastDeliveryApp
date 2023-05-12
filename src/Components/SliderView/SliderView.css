@@ -1,6 +1,7 @@
 .cmnimg {
   width: 10rem;
   height: 5rem;
+  background: transparent;
 }
 .imgcntinslider {
   height: 7.9rem;
@@ -19,5 +20,16 @@
 @media screen and (max-width: 767px) {
   .slidercnt {
     display: none;
+  }
+  .slidercntmobile {
+    display: block;
+    background: rgba(163, 212, 255, 0.5);
+    height: 6.5rem;
+  }
+  .slick-dots {
+    bottom: 36px !important;
+  }
+  .slick-dots li button:before {
+    font-size: 12px;
   }
 }

@@ -4,10 +4,30 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   width: 18.75rem;
   height: 18.75rem;
+  /* width: 20vw;
+  height: 20vh; */
 }
 .imgcntinoursolution:hover {
   transform: scale(1.1);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.intelogisolheading {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+}
+.oursolpara {
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+.oursolutionheading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 62px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -17,12 +37,27 @@
   }
   .intelogisolheading {
     text-align: center;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 1.5rem;
   }
   .oursolpara {
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .imgcntinoursolution {
     margin-top: 1rem;
+    width: 42vw; /* or adjust the value based on your preference */
+    height: 42vw; /* or adjust the value based on your preference */
+    margin-top: 2rem; /* or adjust the value based on your preference */
+  }
+  .oursolutionheading {
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 1.875rem;
+  }
+  .shipvanincol {
+    padding-left: 2rem !important;
+    padding-right: 0px !important;
   }
 }

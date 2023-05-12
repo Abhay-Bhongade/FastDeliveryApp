@@ -2,20 +2,53 @@
   font-size: 3rem;
   font-weight: 700;
 }
-.imgsurroundedbox {
-  width: 7rem !important;
-  height: 3rem !important;
+/* .imgsurroundedbox {
+  width: 60px !important;
+  height: 48px !important;
   background-color: #2555a4;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 13px;
-  border: 1px solid black;
+} */
+
+.imgsurroundedbox {
+  width: 170px !important;
+  height: 60px !important;
+  border-radius: 13px;
+  display: inline-block;
+  background-color: #2555a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.imgsurroundedbox3 {
+  width: 340px !important;
+  height: 60px !important;
+  border-radius: 13px;
+  display: inline-block;
+  background-color: #2555a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .imgcntinfastdelivery {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 1rem;
+} */
+
 .imgcntinfastdelivery {
-  width: 1.5rem;
-  height: 1.5rem;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 1rem;
 }
+
 .imgandheadingcntinfd {
   display: flex;
   justify-content: start;
@@ -33,19 +66,36 @@
   width: 28.75rem;
   height: 28.68rem;
   background-color: #ffffff;
-  box-shadow: 0px -5px 10px 0px #2555a4, 5px 0px 10px 0px #2555a4;
+  /* box-shadow: 0px -5px 10px 0px #2555a4, 5px 0px 10px 0px #2555a4; */
   border-radius: 26px;
   display: flex;
   justify-content: center;
 }
-/* .fsboximgcnt {
+.fsboximgcnt {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 
 .fstdelheaddisnone {
   display: none;
+}
+/* .fastdeliveycnt {
+  margin-top: 15rem;
+} */
+
+.Deliveryboxcnt {
+  position: relative;
+}
+
+.blurimgbg {
+  position: absolute;
+  z-index: -1;
+  width: 500px;
+  height: 413px;
+  margin-left: 7rem;
+  margin-top: -20rem;
+  background: transparent;
 }
 
 @media screen and (max-width: 767px) {
@@ -55,10 +105,12 @@
     justify-content: center;
     align-items: center;
     background: rgba(163, 212, 255, 0.2);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05); */
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
+    border-radius: 5px;
+    padding: 1rem 0.725rem;
   }
   .Deliveryboxcnt {
     width: 22.62rem;
@@ -71,10 +123,15 @@
   .fdfirstpara {
     text-align: center;
     font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px;
   }
   .fdfirstheading {
     font-size: 1rem;
     margin-top: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
   }
   .fastdeliveyheading {
     font-size: 1.875rem;
@@ -85,13 +142,20 @@
   .fstdelheaddisnone {
     display: block;
     font-weight: 800;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 40px;
     text-align: center;
     color: #2555a4;
   }
   .imgsurroundedbox {
     width: 4rem !important;
     height: 4rem !important;
+  }
+  .imgsurroundedbox3 {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+  .headingsurroundedboxinfd {
+    margin-left: 0px;
   }
 }

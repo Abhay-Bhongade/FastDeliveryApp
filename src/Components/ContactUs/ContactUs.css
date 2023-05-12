@@ -2,6 +2,7 @@
   font-size: 3rem;
   font-weight: 700;
   color: #2555a4;
+  line-height: 62px;
 }
 .contactuspara {
   font-size: 1.25rem;
@@ -31,13 +32,13 @@
 input::placeholder {
   color: #333944 !important;
   font-size: 1rem;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
   font-weight: 400;
 }
 textarea::placeholder {
   color: #333944 !important;
   font-size: 1rem;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
   font-weight: 400;
 }
 .businessesbtn {
@@ -63,8 +64,9 @@ textarea::placeholder {
   border-bottom: 0.5px solid #c2c4c7;
   outline: none;
   background: transparent;
-  box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22);
+  /* box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22); */
   margin-right: 3rem;
+  padding-bottom: 10px;
 }
 .emailinput {
   width: 13.43rem;
@@ -99,7 +101,7 @@ textarea::placeholder {
   border: none;
   font-size: 1.125rem;
   font-weight: 400;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .ArrowRightimg {
   width: 1.5rem;
@@ -113,29 +115,39 @@ textarea::placeholder {
 @media screen and (max-width: 767px) {
   .formcntincuformobile {
     display: block;
+    padding: 1.25rem;
+    padding: 1rem 1.25rem 1.25rem 1.25rem;
   }
   .formcntincu {
     display: none;
+  }
+  .formcnt {
+    border: none !important;
   }
   .contactusheading {
     font-size: 1.87rem;
     font-weight: 600;
     color: #e9eaeb;
+    line-height: 40px;
   }
   .headingandimgctnincu {
     margin-top: 2rem;
     text-align: center;
+    padding-left: 0px;
   }
   .contactuspara {
     font-size: 1rem;
     font-weight: 400;
     color: #ffffff;
+    line-height: 24px;
   }
   .vehiclefront11 {
     display: none;
   }
   .contactuscnt {
     background-image: url("../../Images/contactusmobilebg.png");
+    height: 55.31rem;
+    height: 103vh;
     background-size: cover;
   }
   .mobileinput {
@@ -155,6 +167,7 @@ textarea::placeholder {
     border-radius: 7px;
     background-color: transparent;
     border: 1px solid #eae8e8;
+    width: 88vw;
   }
   .formcnt {
     width: 21.87rem;
@@ -165,10 +178,12 @@ textarea::placeholder {
   .courierbtn {
     width: 10.37rem;
     height: 3.5rem;
+    width: 45vw;
   }
   .businessesbtn {
     width: 11.37rem;
     height: 3.5rem;
+    width: 45vw;
   }
   .btnandformcnt {
     margin-top: 0rem;
@@ -176,6 +191,7 @@ textarea::placeholder {
   }
   .btncontainerincntctus {
     margin-bottom: 0rem;
+    width: 90vw;
   }
   /* .formcntincuformobile{
     padding-left: 1.68rem;
@@ -197,11 +213,32 @@ textarea::placeholder {
     border-radius: 7px;
     background-color: transparent;
     border: 1px solid #eae8e8;
+    width: 88vw;
   }
   textarea::placeholder {
     color: #eae8e8 !important;
     font-size: 0.875rem;
     padding-left: 1rem;
     padding-top: 1rem;
+  }
+
+  .sendmessagebtn {
+    width: 14.5rem;
+    height: 3.5rem;
+    border-radius: 4px;
+    background: #f11908;
+    color: #ffffff;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 0rem;
+  }
+  .btncntincu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .colcntincu {
+    padding: 0rem;
   }
 }

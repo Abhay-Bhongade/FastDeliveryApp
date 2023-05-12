@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import woocommercebg from "../../Images/woocommercebg.png";
-import shopify from "../../Images/shopify.png";
+import woocommercesvg from "../../Images/woocommercesvg.svg";
+import shophipysvg from "../../Images/shophipysvg.svg";
 import micros1 from "../../Images/micros1.png";
-import oracle from "../../Images/oracle.png";
-import wix from "../../Images/wix.com.png";
-import sliderarrow from "../../Images/sliderarrow.png";
+import oraclesvg from "../../Images/oraclesvg.svg";
+import wixsvg from "../../Images/wixsvg.svg";
+import sliderarrowsvg from "../../Images/sliderarrowsvg.svg";
 import "./SliderView.css";
 
-import Slider from "react-slick";
+import CustomSlider from "react-slick";
 const SliderView = () => {
   var settings = {
     dots: true,
@@ -32,6 +32,7 @@ const SliderView = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           dots: true,
+          dotsClass: "custom-dots",
         },
       },
       {
@@ -51,17 +52,21 @@ const SliderView = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="imgcntinslider">
-              <img src={shopify} className="card-img-top cmnimg" alt="..." />{" "}
               <img
-                src={woocommercebg}
+                src={shophipysvg}
                 className="card-img-top cmnimg"
                 alt="..."
               />{" "}
-              <img src={oracle} className="card-img-top cmnimg" alt="..." />{" "}
-              <img src={micros1} className="card-img-top cmnimg" alt="..." />{" "}
-              <img src={wix} className="card-img-top cmnimg" alt="..." />{" "}
               <img
-                src={sliderarrow}
+                src={woocommercesvg}
+                className="card-img-top cmnimg"
+                alt="..."
+              />{" "}
+              <img src={oraclesvg} className="card-img-top cmnimg" alt="..." />{" "}
+              <img src={micros1} className="card-img-top cmnimg" alt="..." />{" "}
+              <img src={wixsvg} className="card-img-top cmnimg" alt="..." />{" "}
+              <img
+                src={sliderarrowsvg}
                 className="card-img-top cmnimg"
                 alt="..."
               />{" "}
@@ -72,36 +77,44 @@ const SliderView = () => {
       <div className="container slidercntmobile">
         <div className="row">
           <div className="col-md-12">
-            <Slider {...settings}>
+            <CustomSlider {...settings}>
               <div className="imgcntinslider">
-                <img src={shopify} className="card-img-top cmnimg" alt="..." />{" "}
-              </div>
-              <div>
                 <img
-                  src={woocommercebg}
+                  src={shophipysvg}
                   className="card-img-top cmnimg"
                   alt="..."
                 />{" "}
               </div>
               <div>
-                <img src={oracle} className="card-img-top cmnimg" alt="..." />{" "}
+                <img
+                  src={woocommercesvg}
+                  className="card-img-top cmnimg"
+                  alt="..."
+                />{" "}
+              </div>
+              <div>
+                <img
+                  src={oraclesvg}
+                  className="card-img-top cmnimg"
+                  alt="..."
+                />{" "}
               </div>
               <div>
                 <img src={micros1} className="card-img-top cmnimg" alt="..." />{" "}
               </div>
 
               <div>
-                <img src={wix} className="card-img-top cmnimg" alt="..." />{" "}
+                <img src={wixsvg} className="card-img-top cmnimg" alt="..." />{" "}
               </div>
 
               <div>
                 <img
-                  src={sliderarrow}
+                  src={sliderarrowsvg}
                   className="card-img-top cmnimg"
                   alt="..."
                 />{" "}
               </div>
-            </Slider>
+            </CustomSlider>
           </div>
         </div>
       </div>

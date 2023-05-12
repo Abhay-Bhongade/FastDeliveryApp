@@ -19,7 +19,7 @@ const ContactUs = () => {
               <div className="">
                 <img
                   src={vehiclefront11}
-                  className="card-img-top vehiclefront11"
+                  className="card-img-top img-fluid vehiclefront11"
                   alt="..."
                 />
               </div>
@@ -28,7 +28,7 @@ const ContactUs = () => {
           <div className="col-md-6 colcntincu">
             <div className="card formcnt">
               <div className="btnandformcnt">
-                <div className="btncontainerincntctus">
+                <div className="btncontainerincntctus ms-3 ms-md-0 mt-5 mt-md-0">
                   <button className="courierbtn" type="button">
                     Courier
                   </button>
@@ -40,7 +40,7 @@ const ContactUs = () => {
                   <input
                     type="text"
                     id="mobilenumber"
-                    placeholder="Mob. NO."
+                    placeholder="Mob. No."
                     className="mobileinput"
                   />
                   <input
@@ -54,7 +54,7 @@ const ContactUs = () => {
                     rows={4}
                     cols={50}
                     maxLength={100}
-                    placeholder="  Enter your message here....."
+                    placeholder="Enter your message here....."
                   />
                   <button className="sendmessagebtn" type="button">
                     <span className="ms-2">Send Message</span>{" "}
@@ -66,28 +66,28 @@ const ContactUs = () => {
                   </button>
                 </form>
                 <form className="formcntincuformobile">
-                  <div className="inputlabeltext my-2">First Name:</div>
+                  <div className="inputlabeltext my-3">First Name:</div>
                   <input
                     type="text"
                     id="firstname"
                     placeholder="debra"
                     className="firstnamemobileinput"
                   />
-                  <div className="inputlabeltext  my-2">Last Name:</div>
+                  <div className="inputlabeltext  my-3">Last Name:</div>
                   <input
                     type="text"
                     id="lastname"
                     placeholder="holt"
                     className="firstnamemobileinput"
                   />
-                  <div className="inputlabeltext  my-2">Email :</div>
+                  <div className="inputlabeltext  my-3">Email :</div>
                   <input
                     type="text"
                     className="firstnamemobileinput"
                     id="lastname"
                     placeholder="debra.holt@example.com"
                   />
-                  <div className="inputlabeltext  my-2">Mobile :</div>
+                  <div className="inputlabeltext  my-3">Mobile :</div>
                   <input
                     type="text"
                     id="lastname"
@@ -104,7 +104,7 @@ const ContactUs = () => {
                     placeholder="Email"
                     className="mobileinput"
                   />
-                  <div className="inputlabeltext  my-2">Message:</div>
+                  <div className="inputlabeltext  my-3">Message:</div>
                   <textarea
                     className="textareainmobile "
                     rows={4}
@@ -112,6 +112,16 @@ const ContactUs = () => {
                     maxLength={100}
                     placeholder="Enter your message here....."
                   />
+                  <div className="btncntincu mt-3">
+                    <button className="sendmessagebtn" type="button">
+                      <span className="ms-2">Send Message</span>{" "}
+                      <img
+                        src={ArrowRight}
+                        className="card-img-top ArrowRightimg"
+                        alt="..."
+                      />
+                    </button>
+                  </div>
                 </form>
               </div>
             </div>

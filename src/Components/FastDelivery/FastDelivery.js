@@ -1,14 +1,16 @@
 import React from "react";
 import "../FastDelivery/FastDelivery.css";
-import customorsatisfaction from "../../Images/CustomerSupport.png";
-import competativeadvntage from "../../Images/FastTrack.png";
-import reputation from "../../Images/Vector.png";
+import customorsatisfaction from "../../Images/Customer Support.svg";
+import competativeadvntage from "../../Images/Fast Track.svg";
+import reputation from "../../Images/Vector.svg";
 import Deliverybox from "../../Images/Deliverybox.png";
+import imagebginfd from "../../Images/imagebginfd.svg";
+import imagebginfd2 from "../../Images/imagebginfd2.png";
 
 const FastDelivery = () => {
   return (
     <>
-      <div className="container">
+      <div className="container fastdeliveycnt">
         <div className="row">
           <h1 className="fstdelheaddisnone">Easy and Fast</h1>
           <h1 className="fastdeliveyheading">Fast delivery boosts:</h1>
@@ -17,7 +19,7 @@ const FastDelivery = () => {
               <div className="imgsurroundedbox">
                 <img
                   src={customorsatisfaction}
-                  className="card-img-top imgcntinfastdelivery"
+                  className="card-img-top img-fluid imgcntinfastdelivery"
                   alt="..."
                 />
               </div>
@@ -33,11 +35,11 @@ const FastDelivery = () => {
                 </p>{" "}
               </div>
             </div>
-            <div className="imgandheadingcntinfd mt-4">
+            <div className="imgandheadingcntinfd mt-4 ">
               <div className="imgsurroundedbox">
                 <img
                   src={competativeadvntage}
-                  className="card-img-top imgcntinfastdelivery"
+                  className="card-img-top img-fluid imgcntinfastdelivery"
                   alt="..."
                 />
               </div>
@@ -54,11 +56,11 @@ const FastDelivery = () => {
                 </p>{" "}
               </div>
             </div>
-            <div className="imgandheadingcntinfd mt-4">
-              <div className="imgsurroundedbox">
+            <div className="imgandheadingcntinfd mt-4 ">
+              <div className="imgsurroundedbox3">
                 <img
                   src={reputation}
-                  className="card-img-top imgcntinfastdelivery"
+                  className="card-img-top img-fluid imgcntinfastdelivery"
                   alt="..."
                 />
               </div>
@@ -79,6 +81,11 @@ const FastDelivery = () => {
           </div>
           <div className="col-md-6 col-6 fsboximgcnt">
             <div className="card Deliveryboxcnt">
+              <img
+                src={imagebginfd}
+                className="card-img-top blurimgbg"
+                alt="..."
+              />
               <img
                 src={Deliverybox}
                 className="card-img-top Deliveryboximg"

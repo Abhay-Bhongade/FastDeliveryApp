@@ -18,7 +18,7 @@ const Navigation = () => {
               <div>
                 <img
                   src={fastlogonavbar}
-                  className="card-img-top fastlogonavbarimg"
+                  className=" fastlogonavbarimg"
                   alt="..."
                 />
               </div>

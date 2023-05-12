@@ -9,9 +9,9 @@ import shipvan from "../../Images/Shipping Van .png";
 const OurSolutions = () => {
   return (
     <>
-      <div className="container py-md-5 py-4 mb-5">
+      <div className="container py-md-5 py-4 mb-5 px-0">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12 px-0">
             <h2 className="intelogisolheading">
               Integrated Logistics Solutions
             </h2>
@@ -22,34 +22,44 @@ const OurSolutions = () => {
             </p>
           </div>
         </div>
-        <div className="row">
-          <h1 className="text-center mt-3 mt-md-0">OUR SOLUTIONS</h1>
-          <div className="col-md-3 col-6">
+        <div className="row px-md-0 mx-md-0">
+          <h1 className="text-center mt-3 mt-md-0 oursolutionheading">
+            OUR SOLUTIONS
+          </h1>
+          <div className="col-md-3 col-6 px-md-0 mx-md-0 shipvanincol">
             {" "}
             <div className="card border-0 imgcntinoursolution">
-              <img src={shipvan} className="card-img-top" alt="..." />
+              <img src={shipvan} className="card-img-top img-fluid" alt="..." />
             </div>{" "}
           </div>
-          <div className="col-md-3 col-6">
+          <div className="col-md-3 col-6  px-md-0 mx-md-0">
             {" "}
             <div className="card border-0 imgcntinoursolution">
               <img
                 src={motorcycledelivery}
-                className="card-img-top"
+                className="card-img-top img-fluid"
                 alt="..."
               />
             </div>{" "}
           </div>
-          <div className="col-md-3 col-6">
+          <div className="col-md-3 col-6  px-md-0 mx-md-0 shipvanincol">
             {" "}
             <div className="card border-0 imgcntinoursolution">
-              <img src={trackingnumber} className="card-img-top" alt="..." />
+              <img
+                src={trackingnumber}
+                className="card-img-top img-fluid"
+                alt="..."
+              />
             </div>{" "}
           </div>
-          <div className="col-md-3 col-6">
+          <div className="col-md-3 col-6  px-md-0 mx-md-0">
             {" "}
             <div className="card border-0 imgcntinoursolution">
-              <img src={orderprocessing} className="card-img-top" alt="..." />
+              <img
+                src={orderprocessing}
+                className="card-img-top img-fluid"
+                alt="..."
+              />
             </div>{" "}
           </div>
         </div>

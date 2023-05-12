@@ -15,7 +15,7 @@ const OurStory = () => {
           <div className="col-md-6 order-first order-md-last">
             <h2 className="ourstoryheading">Our Story</h2>
             <p className="oustpara">
-              At Fast Dlivery, we believe that every package we handle is more
+              At Fast Delivery, we believe that every package we handle is more
               than just a box or an envelope. we understand that your shipments
               are important to you, and that's why we treat each one with care
               and attention to detail. from the moment it's delivered to its
