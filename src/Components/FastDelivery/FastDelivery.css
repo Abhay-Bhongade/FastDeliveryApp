@@ -166,4 +166,17 @@
   .headingsurroundedboxinfd {
     margin-left: 0px;
   }
+  .blurimgbg {
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    height: 413px;
+    margin-left: 0rem;
+    margin-top: -20rem;
+    background: transparent;
 }
+}
+
+
+
+
