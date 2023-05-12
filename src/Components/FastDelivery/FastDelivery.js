@@ -83,12 +83,12 @@ const FastDelivery = () => {
             <div className="card Deliveryboxcnt">
               <img
                 src={imagebginfd}
-                className="card-img-top blurimgbg"
+                className="card-img-top blurimgbg img-fluid"
                 alt="..."
               />
               <img
                 src={Deliverybox}
-                className="card-img-top Deliveryboximg"
+                className="card-img-top Deliveryboximg img-fluid"
                 alt="..."
               />
               <div className="card-body">
