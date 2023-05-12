@@ -10,7 +10,7 @@
   line-height: 30px;
   color: #333944;
 }
-.contactuscnt {
+.contactuscnt1 {
   background-color: #a3d4ff;
 }
 .headingandimgctnincu {
@@ -149,8 +149,9 @@ textarea::placeholder {
   .contactuscnt {
     background-image: url("../../Images/contactusmobilebg.png");
     height: 55.31rem;
-    height: 103vh;
+    height: auto;
     background-size: cover;
+    z-index: 10;
   }
   .mobileinput2 {
     display: none;
@@ -235,12 +236,23 @@ textarea::placeholder {
     font-weight: 400;
     margin-top: 0rem;
   }
-  .btncntincu {
+  /* .btncntincu {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
   .colcntincu {
     padding: 0rem;
+  }
+  .formcnt {
+    width: 40vw;
+    /* height: 64.87rem; */
+    height: auto;
+  }
+  .btncntincu {
+    margin-left: 2rem;
+  }
+  .contactuscnt1 {
+    background-image: url("../../Images/contactusmobilebg.png");
   }
 }

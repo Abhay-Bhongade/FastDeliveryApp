@@ -8,7 +8,7 @@ import "../ContactUs/ContactUs.css";
 const ContactUs = () => {
   return (
     <div className="py-5">
-      <div className="container contactuscnt">
+      <div className="container contactuscnt1 contactuscnt">
         <div className="row">
           <div className="col-md-6">
             <div className="headingandimgctnincu">
@@ -133,6 +133,7 @@ const ContactUs = () => {
                         alt="..."
                       />
                     </button>
+                  
                   </div>
                 </form>
               </div>
