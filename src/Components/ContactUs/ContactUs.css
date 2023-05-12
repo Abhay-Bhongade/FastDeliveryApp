@@ -61,7 +61,7 @@ textarea::placeholder {
 .formcnt {
   width: 41vw;
   height: 34.87rem;
-  height: 80vh;
+  /* height: 80vh; */
 }
 .mobileinput2 {
   width: 13.43rem;
@@ -84,7 +84,7 @@ textarea::placeholder {
 } */
 .textareacnt {
   margin-top: 4.375rem;
-  width: 29.86rem;
+  width: 27.86rem;
   border: none;
   border-bottom: 1px solid #c2c4c7;
   outline: none;
