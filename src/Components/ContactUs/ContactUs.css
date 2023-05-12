@@ -55,11 +55,13 @@ textarea::placeholder {
 }
 .colcntincu {
   padding: 1.25rem;
+  padding-right: 1.5rem;
 }
 
 .formcnt {
-  width: 40vw;
+  width: 41vw;
   height: 34.87rem;
+  height: 80vh;
 }
 .mobileinput2 {
   width: 13.43rem;
