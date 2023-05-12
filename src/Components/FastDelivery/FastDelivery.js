@@ -14,7 +14,7 @@ const FastDelivery = () => {
         <div className="row">
           <h1 className="fstdelheaddisnone">Easy and Fast</h1>
           <h1 className="fastdeliveyheading">Fast delivery boosts:</h1>
-          <div className="col-md-6">
+          <div className="col-md-7">
             <div className="imgandheadingcntinfd mt-4">
               <div className="imgsurroundedbox">
                 <img
@@ -79,7 +79,7 @@ const FastDelivery = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-6 fsboximgcnt">
+          <div className="col-md-5 mt-md-0 mt-4 fsboximgcnt">
             <div className="card Deliveryboxcnt">
               <img
                 src={imagebginfd}

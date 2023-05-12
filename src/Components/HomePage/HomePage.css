@@ -39,14 +39,10 @@
   display: none;
 }
 .vehiclebackimg {
-  margin-top: 7rem;
-  border: 1px solid black;
+  margin-top: 9rem;
   /* margin-left: -10rem; */
   width: 60vw;
-  height: 80vh;
-}
-.vehicnt {
-  border: 1px solid black;
+  height: 70vh;
 }
 
 .getstartedbtn {
@@ -75,13 +71,13 @@
   height: 1.5625rem;
 }
 .homepgheadingcontainer {
-  margin-top: 10rem;
+  margin-top: 9rem;
   margin-left: 3rem;
   position: relative;
 }
 
 .btncontainer {
-  margin-top: 4.125rem;
+  margin-top: 7.125rem;
   margin-left: 3rem;
 }
 .arrowandbuttonimg {
@@ -90,6 +86,20 @@
   height: 200px;
   margin-left: 3.7rem;
 }
+
+.headingoverlap {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  left: 0vw;
+  margin: 0;
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #2555a4;
+  text-transform: capitalize;
+  z-index: 2;
+}
+
 @media screen and (max-width: 767px) {
   .leftsidhmpgimg {
     display: none;
@@ -127,10 +137,12 @@
     margin-top: 1.125rem;
     margin-left: 0;
     text-align: center;
+    margin-top: 4rem;
   }
   .vehiclebackimg {
     margin-top: 0rem;
     width: 100vw;
+    height: 30vh;
   }
   .homepgheadingcontainer {
     margin-left: 0;
@@ -162,5 +174,17 @@
   }
   .col40vw {
     width: 100vw;
+  }
+  .headingoverlap {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    left: 0vw;
+    margin: 0;
+    font-size: 1.68rem;
+    font-weight: 700;
+    color: #2555a4;
+    text-transform: capitalize;
+    z-index: 2;
   }
 }

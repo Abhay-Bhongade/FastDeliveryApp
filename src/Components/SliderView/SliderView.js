@@ -59,7 +59,7 @@ const SliderView = () => {
               />{" "}
               <img
                 src={wclogo}
-                className="card-img-top cmnimg"
+                className="card-img-top cmnimg wclogoimg"
                 alt="..."
               />{" "}
               <img src={oraclesvg} className="card-img-top cmnimg" alt="..." />{" "}
@@ -88,7 +88,7 @@ const SliderView = () => {
               <div>
                 <img
                   src={wclogo}
-                  className="card-img-top cmnimg"
+                  className="card-img-top cmnimg wclogoimg"
                   alt="..."
                 />{" "}
               </div>

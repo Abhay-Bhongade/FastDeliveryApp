@@ -1,6 +1,7 @@
 import React from "react";
 import ArrowRight from "../../Images/ArrowRight.png";
 import vehiclefront11 from "../../Images/vehiclefront11.png";
+import contactuspagevan from "../../Images/contactuspagevan.png";
 
 import "../ContactUs/ContactUs.css";
 
@@ -18,7 +19,7 @@ const ContactUs = () => {
               </p>
               <div className="">
                 <img
-                  src={vehiclefront11}
+                  src={contactuspagevan}
                   className="card-img-top img-fluid vehiclefront11"
                   alt="..."
                 />
@@ -41,14 +42,24 @@ const ContactUs = () => {
                     type="text"
                     id="mobilenumber"
                     placeholder="Mob. No."
-                    className="mobileinput"
+                    className="mobileinput2"
                   />
                   <input
                     type="email"
                     id="email"
                     placeholder="Email"
-                    className="mobileinput"
+                    className="mobileinput2"
                   />
+                  {/* <input
+                    type="text"
+                    placeholder="Mob. No."
+                    className="mobileinput"
+                  />{" "}
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    className="mobileinput"
+                  /> */}
                   <textarea
                     className="textareacnt "
                     rows={4}
@@ -65,36 +76,37 @@ const ContactUs = () => {
                     />
                   </button>
                 </form>
+
                 <form className="formcntincuformobile">
-                  <div className="inputlabeltext my-3">First Name:</div>
+                  <div className="inputlabeltext my-3">First Name</div>
                   <input
                     type="text"
                     id="firstname"
                     placeholder="debra"
                     className="firstnamemobileinput"
                   />
-                  <div className="inputlabeltext  my-3">Last Name:</div>
+                  <div className="inputlabeltext  my-3">Last Name</div>
                   <input
                     type="text"
                     id="lastname"
                     placeholder="holt"
                     className="firstnamemobileinput"
                   />
-                  <div className="inputlabeltext  my-3">Email :</div>
+                  <div className="inputlabeltext  my-3">Email</div>
                   <input
                     type="text"
                     className="firstnamemobileinput"
                     id="lastname"
                     placeholder="debra.holt@example.com"
                   />
-                  <div className="inputlabeltext  my-3">Mobile :</div>
+                  <div className="inputlabeltext  my-3">Mobile No.</div>
                   <input
                     type="text"
                     id="lastname"
                     className="firstnamemobileinput"
                     placeholder="+91 123-45-897"
                   />
-                  <input
+                  {/* <input
                     type="text"
                     placeholder="Mob. No."
                     className="mobileinput"
@@ -103,8 +115,8 @@ const ContactUs = () => {
                     type="email"
                     placeholder="Email"
                     className="mobileinput"
-                  />
-                  <div className="inputlabeltext  my-3">Message:</div>
+                  /> */}
+                  <div className="inputlabeltext  my-3">Messages</div>
                   <textarea
                     className="textareainmobile "
                     rows={4}

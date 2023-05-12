@@ -18,7 +18,12 @@ const Footer = () => {
                 className="card-img-top fastdeliveryimg"
                 alt="..."
               />
-              <p className="DeliverAnythingpara">Deliver Anything, Anywhere</p>
+              <p className="DeliverAnythingpara">
+                Deliver Anything, <br /> Anywhere
+              </p>
+              <p className="DeliverAnythingpara2 mt-1">
+                Deliver Anything, Anywhere
+              </p>
             </div>
           </div>
           <div className="col-md-4">

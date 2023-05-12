@@ -8,6 +8,9 @@
   font-weight: 400;
   color: #2555a4;
 }
+.DeliverAnythingpara2 {
+  display: none;
+}
 .addressheading {
   font-weight: 600;
   font-size: 18px;
@@ -19,9 +22,14 @@
   height: 3rem;
   border-radius: 4px;
   padding: 10px 8px;
-  border-color: rgba(163, 212, 255, 0.13);
+  border: 1xp solid#e0e3eb;
+  width: 19vw;
 }
-
+input::placeholder {
+  color: #a3aac2;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
 .footercnt {
   background-color: rgba(163, 212, 255, 0.13);
   padding-left: 4.25rem;
@@ -41,6 +49,7 @@ input::placeholder {
   border-radius: 4px;
   background: #2555a4;
   color: #ffffff;
+  width: 9vw;
   border: none;
 }
 
@@ -68,6 +77,9 @@ input::placeholder {
 }
 
 @media screen and (max-width: 767px) {
+  .DeliverAnythingpara {
+    display: none;
+  }
   .fastdeliveryimg {
     width: 8.125rem;
     height: 3.93rem;
@@ -76,7 +88,8 @@ input::placeholder {
     margin-top: 1rem;
     text-align: center;
   }
-  .DeliverAnythingpara {
+  .DeliverAnythingpara2 {
+    display: block;
     text-align: center;
     font-size: 1rem;
   }
@@ -115,7 +128,8 @@ input::placeholder {
     height: 2.56rem;
     border-radius: 4px;
     padding: 10px 8px;
-    border-color: rgba(163, 212, 255, 0.13);
+    /* border-color: rgba(163, 212, 255, 0.13); */
+    border-color: #e0e3eb;
   }
 
   .suscribebtn {

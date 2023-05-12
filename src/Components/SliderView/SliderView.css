@@ -16,6 +16,9 @@
 .slidercntmobile {
   display: none;
 }
+.wclogoimg {
+  height: 42px;
+}
 
 @media screen and (max-width: 767px) {
   .slidercnt {
@@ -31,5 +34,15 @@
   }
   .slick-dots li button:before {
     font-size: 12px;
+  }
+  .wclogoimg {
+    height: 42px;
+    margin-top: 1.5rem;
+  }
+  .imgcntinslider {
+    height: 7.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

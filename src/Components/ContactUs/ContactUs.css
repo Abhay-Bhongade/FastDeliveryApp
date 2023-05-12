@@ -19,6 +19,7 @@
 
 .vehiclefront11 {
   background-color: transparent;
+  margin-top: 1.5rem;
 }
 .courierbtn {
   width: 15.93rem;
@@ -58,7 +59,7 @@ textarea::placeholder {
   width: 40vw;
   height: 34.87rem;
 }
-.mobileinput {
+.mobileinput2 {
   width: 13.43rem;
   border: none;
   border-bottom: 0.5px solid #c2c4c7;
@@ -67,15 +68,16 @@ textarea::placeholder {
   /* box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22); */
   margin-right: 3rem;
   padding-bottom: 10px;
+  width: 13.43vw;
 }
-.emailinput {
+/* .emailinput {
   width: 13.43rem;
   border: none;
   border-bottom: 1px solid #333944;
   outline: none;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22);
-}
+} */
 .textareacnt {
   margin-top: 4.375rem;
   width: 29.86rem;
@@ -150,7 +152,7 @@ textarea::placeholder {
     height: 103vh;
     background-size: cover;
   }
-  .mobileinput {
+  .mobileinput2 {
     display: none;
   }
   .textareacnt {
