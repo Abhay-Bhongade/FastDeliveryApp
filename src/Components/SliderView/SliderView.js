@@ -16,6 +16,7 @@ const SliderView = () => {
     slidesToShow: 2,
     slidesToScroll: 2,
     initialSlide: 0,
+    arrows: false, // add this line
     responsive: [
       {
         breakpoint: 1024,
