@@ -26,6 +26,7 @@
   line-height: 28px;
   letter-spacing: 1px;
   margin-left: 5.8rem;
+  text-transform: capitalize;
 }
 .rngcnt {
   background-color: #f3faff;
@@ -61,7 +62,7 @@
 
 .box:hover .oneliner,
 .box:hover .onelinerblpara {
-  transform: scale(1.1); /* Adjust the scale value as needed */
+  transform: scale(1.03); /* Adjust the scale value as needed */
 }
 
 @media screen and (max-width: 767px) {
