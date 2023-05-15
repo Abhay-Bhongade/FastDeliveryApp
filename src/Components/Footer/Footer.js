@@ -53,7 +53,7 @@ const Footer = () => {
                   className="emailinput"
                   placeholder="Your email here"
                 />
-                <button className="suscribebtn ms-2" type="button">
+                <button className="suscribebtn ms-2 " type="button">
                   Subscribe
                 </button>
               </div>
