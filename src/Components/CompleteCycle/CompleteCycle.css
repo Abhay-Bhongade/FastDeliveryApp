@@ -61,7 +61,7 @@
 
 .box:hover .oneliner,
 .box:hover .onelinerblpara {
-  transform: scale(1.03); /* Adjust the scale value as needed */
+  transform: scale(1.02); /* Adjust the scale value as needed */
 }
 
 @media screen and (max-width: 767px) {
