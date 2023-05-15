@@ -24,8 +24,8 @@ const OurStory = () => {
               hands.
             </p>
             <div className="btncntinourstory">
-              <a href="#" className="button">
-                Learn More{" "}
+              <a href="#" className="learnmorebutton">
+                Learn More
               </a>
             </div>
           </div>

@@ -77,6 +77,11 @@
   border-radius: 26px;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+.Deliveryboxcnt:hover img {
+  transform: scale(1.02); /* Adjust the scale value as needed */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 .fsboximgcnt {
   display: flex;
@@ -174,9 +179,5 @@
     margin-left: 0rem;
     margin-top: -20rem;
     background: transparent;
+  }
 }
-}
-
-
-
-

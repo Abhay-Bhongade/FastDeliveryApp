@@ -51,6 +51,19 @@ input::placeholder {
   color: #ffffff;
   width: 8vw;
   border: none;
+  text-shadow: 0 -1px -1px #a22d1f;
+  box-shadow: 0 4px 0 #a22d1f, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0px 4px 0px rgba(37, 85, 164, 0.22);
+  margin-top: 2rem;
+}
+
+.suscribebtn:hover {
+  background: none;
+  color: #2555a4;
+  border: 1px solid #2555a4;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
 }
 
 .imgsocial {

@@ -108,7 +108,29 @@ textarea::placeholder {
   font-size: 1.125rem;
   font-weight: 400;
   margin-top: 3rem;
+  text-shadow: 0 -1px -1px #a22d1f;
+  box-shadow: 0 4px 0 #a22d1f, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0px 4px 0px rgba(37, 85, 164, 0.22);
+  margin-top: 2rem;
 }
+
+.sendmessagebtn:hover {
+  background: none;
+  color: #f11908;
+  border: 1px solid #f11908;
+  transition: background-color 0.1s ease;
+  font-weight: 500;
+}
+
+.button:hover {
+  /* background-color: #d24a37;
+  text-shadow: 0 -1px -1px #b33826;
+  box-shadow: 0 4px 0 #b33826, 0 5px 5px 1px rgba(0, 0, 0, 0.4); */
+  color: white;
+  background-color: #2555a4;
+}
+
 .ArrowRightimg {
   width: 1.5rem;
   height: 1.5rem;

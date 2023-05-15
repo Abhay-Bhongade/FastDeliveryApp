@@ -86,11 +86,13 @@ const FastDelivery = () => {
                 className="card-img-top blurimgbg img-fluid"
                 alt="..."
               />
-              <img
-                src={Deliverybox}
-                className="card-img-top Deliveryboximg img-fluid"
-                alt="..."
-              />
+              <div className="image-card">
+                <img
+                  src={Deliverybox}
+                  className="card-img-top Deliveryboximg img-fluid"
+                  alt="..."
+                />
+              </div>
               <div className="card-body">
                 <h4>Delivering Your Satisfaction -</h4>
                 <p className="card-text">
