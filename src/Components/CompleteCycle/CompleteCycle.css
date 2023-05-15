@@ -90,4 +90,10 @@
     letter-spacing: 0.3px;
     margin-left: 2.8rem;
   }
+  .box:hover,
+  .box:hover .oneliner,
+  .box:hover .onelinerblpara {
+    transform: none; /* Remove the hover effect on mobile screens */
+    transition: none; /* Remove the transition effect on mobile screens */
+  }
 }

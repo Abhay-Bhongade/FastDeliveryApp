@@ -123,6 +123,31 @@ textarea::placeholder {
   font-weight: 500;
 }
 
+.sendmessagebtn2 {
+  width: 14.5rem;
+  height: 3.5rem;
+  border-radius: 4px;
+  background: #f11908;
+  color: #ffffff;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 3rem;
+  text-shadow: 0 -1px -1px #a22d1f;
+  box-shadow: 0 4px 0 #a22d1f, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0px 4px 0px rgba(37, 85, 164, 0.22);
+  margin-top: 2rem;
+}
+
+.sendmessagebtn2:hover {
+  background: none !important;
+  transition: background-color 0.1s ease;
+  font-weight: 500;
+  color: #ffffff !important;
+  border: 1px solid white !important;
+}
+
 .button:hover {
   /* background-color: #d24a37;
   text-shadow: 0 -1px -1px #b33826;
@@ -262,11 +287,17 @@ textarea::placeholder {
     font-weight: 400;
     margin-top: 0rem;
   }
-  /* .btncntincu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
+  .sendmessagebtn2 {
+    width: 14.5rem;
+    height: 3.5rem;
+    border-radius: 4px;
+    background: #f11908;
+    color: #ffffff;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 0rem;
+  }
   .colcntincu {
     padding: 0rem;
   }

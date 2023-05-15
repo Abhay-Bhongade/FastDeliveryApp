@@ -19,6 +19,9 @@
   font-weight: 700;
   line-height: 24.38px;
 }
+.nblinks:hover {
+  color: #2555a4;
+}
 .fastlogonavbarimg {
   width: 8.625rem;
   height: 4.18rem;

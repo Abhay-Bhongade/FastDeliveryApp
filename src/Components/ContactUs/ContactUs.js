@@ -140,23 +140,10 @@ const ContactUs = () => {
                     placeholder="Enter your message here....."
                   />
                   <div className="btncntincu mt-3">
-                    {/* <button className="sendmessagebtn" type="button">
+                    <button className="sendmessagebtn2" type="button">
                       <span className="ms-2">Send Message</span>{" "}
                       <img
                         src={ArrowRight}
-                        className="card-img-top ArrowRightimg"
-                        alt="..."
-                      />
-                    </button> */}
-                    <button
-                      className="sendmessagebtn"
-                      type="button"
-                      onMouseEnter={handleMouseEnter}
-                      onMouseLeave={handleMouseLeave}
-                    >
-                      <span className="ms-2">Send Message</span>{" "}
-                      <img
-                        src={isHovered ? ArrowRight2 : ArrowRight}
                         className="card-img-top ArrowRightimg"
                         alt="..."
                       />
