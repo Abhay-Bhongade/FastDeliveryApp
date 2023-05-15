@@ -22,7 +22,7 @@ const CompleteCycle = () => {
                 <h5 className="oneliner">Easy to Use</h5>
               </div>
               <p className="onelinerblpara">
-                easy-to-use delivery management tools to schdule. track, and
+                Easy-to-use delivery management tools to schdule. track, and
                 monitor your shipments in real-time.
               </p>
             </div>
@@ -42,7 +42,7 @@ const CompleteCycle = () => {
                 <h5 className="oneliner">Communication</h5>
               </div>
               <p className="onelinerblpara">
-                automated customer communication with notifications and updates
+                Automated customer communication with notifications and updates
                 to keep your customers informed every step of the way.
               </p>
             </div>
@@ -87,7 +87,7 @@ const CompleteCycle = () => {
                 <h5 className="oneliner">Reliable and timely</h5>
               </div>
               <p className="onelinerblpara">
-                reliable and timely delivery service to ensure your packages are
+                Reliable and timely delivery service to ensure your packages are
                 delivered on time, every time.
               </p>
             </div>
@@ -107,7 +107,7 @@ const CompleteCycle = () => {
                 <h5 className="oneliner">Customer Support</h5>
               </div>
               <p className="onelinerblpara">
-                exceptional customer support with dedicated professionals ready
+                Exceptional customer support with dedicated professionals ready
                 to assist you with any questions or concrens.
               </p>
             </div>
