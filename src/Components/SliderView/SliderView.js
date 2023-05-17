@@ -1,14 +1,46 @@
 import React, { useState } from "react";
-import wclogo from "../../Images/wclogo.png";
+import wclogo from "../../Images/wclogo 2.svg";
 import shophipysvg from "../../Images/shophipysvg.svg";
-import micros1 from "../../Images/micros1.png";
+import micros1 from "../../Images/micros1.svg";
 import oraclesvg from "../../Images/oraclesvg.svg";
 import wixsvg from "../../Images/wixsvg.svg";
 import sliderarrowsvg from "../../Images/sliderarrowsvg.svg";
 import "./SliderView.css";
-
+import Slider from "react-slick";
 import CustomSlider from "react-slick";
 const SliderView = () => {
+  const settings2 = {
+    arrows: false, // add this line
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "0",
+    slidesToShow: 3,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    dots: false,
+
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          dots: true,
+          dotsClass: "custom-dots",
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          dots: true,
+        },
+      },
+    ],
+  };
+
   var settings = {
     dots: true,
     infinite: false,
@@ -49,33 +81,36 @@ const SliderView = () => {
 
   return (
     <>
-      <div className="container-fluid slidercnt mt-5">
+      <div className="container-fluid slidercnt mt-5 mb-0">
         <div className="row">
           <div className="col-md-12">
-            <div className="imgcntinslider">
-              <img
-                src={shophipysvg}
-                className="card-img-top cmnimg"
-                alt="..."
-              />{" "}
-              <img
-                src={wclogo}
-                className="card-img-top cmnimg wclogoimg"
-                alt="..."
-              />{" "}
-              <img src={oraclesvg} className="card-img-top cmnimg" alt="..." />{" "}
-              <img src={micros1} className="card-img-top cmnimg" alt="..." />{" "}
-              <img src={wixsvg} className="card-img-top cmnimg" alt="..." />{" "}
-              <img
-                src={sliderarrowsvg}
-                className="card-img-top cmnimg"
-                alt="..."
-              />{" "}
-            </div>
+            <Slider {...settings2} className="slidercntmain">
+              <div>
+                <img src={shophipysvg} alt="..." />
+              </div>
+
+              <div>
+                <img src={wclogo} className="wcimgselect" alt="..." />
+              </div>
+
+              <div>
+                <img src={oraclesvg} alt="..." />
+              </div>
+
+              <div>
+                {" "}
+                <img src={micros1} alt="..." />
+              </div>
+
+              <div>
+                <img src={wixsvg} alt="..." className="wiximgselect" />
+              </div>
+            </Slider>
           </div>
         </div>
       </div>
-      <div className="container slidercntmobile">
+
+      {/* <div className="container slidercntmobile">
         <div className="row">
           <div className="col-md-12">
             <CustomSlider {...settings}>
@@ -118,7 +153,7 @@ const SliderView = () => {
             </CustomSlider>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
