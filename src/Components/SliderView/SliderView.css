@@ -66,8 +66,7 @@
   margin-left: 5rem !important;
 }
 
-/* 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .slidercnt {
     display: none;
   }
@@ -77,7 +76,7 @@
     height: 6.5rem;
   }
   .slick-dots {
-    bottom: 36px !important;
+    bottom: -13px !important;
   }
   .slick-dots li button:before {
     font-size: 12px;
@@ -93,3 +92,17 @@
     align-items: center;
   }
 } */
+
+@media screen and (max-width: 767px) {
+  .slick-current {
+    transform: scale(1) !important; /* Zoom effect on center image */
+    transition: transform 0.5s ease;
+  }
+  .wiximgselect {
+    width: 140px !important;
+    margin-left: 0rem !important;
+  }
+  .slick-dots {
+    bottom: -13px !important;
+  }
+}

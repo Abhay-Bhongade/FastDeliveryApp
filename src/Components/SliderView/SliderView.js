@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import CustomSlider from "react-slick";
 const SliderView = () => {
   const settings2 = {
-    arrows: false, // add this line
+    arrows: false,
     className: "center",
     centerMode: true,
     infinite: true,
@@ -21,7 +21,6 @@ const SliderView = () => {
     autoplaySpeed: 2000,
     cssEase: "linear",
     dots: false,
-
     responsive: [
       {
         breakpoint: 768,
@@ -29,55 +28,22 @@ const SliderView = () => {
           slidesToShow: 3,
           dots: true,
           dotsClass: "custom-dots",
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          dots: true,
-        },
-      },
-    ],
-  };
-
-  var settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    initialSlide: 0,
-    arrows: false, // add this line
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
           slidesToScroll: 2,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          dots: true,
-          dotsClass: "custom-dots",
         },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
           dots: true,
+          slidesToScroll: 2,
+          centerMode: false,
+          centerPadding: "0",
         },
       },
     ],
   };
+  
 
   return (
     <>
@@ -109,8 +75,52 @@ const SliderView = () => {
           </div>
         </div>
       </div>
+    </>
+  );
+};
 
-      {/* <div className="container slidercntmobile">
+export default SliderView;
+
+// var settings = {
+//   dots: true,
+//   infinite: false,
+//   speed: 500,
+//   slidesToShow: 2,
+//   slidesToScroll: 2,
+//   initialSlide: 0,
+//   arrows: false, // add this line
+//   responsive: [
+//     {
+//       breakpoint: 1024,
+//       settings: {
+//         slidesToShow: 2,
+//         slidesToScroll: 2,
+//         infinite: true,
+//         dots: true,
+//       },
+//     },
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         slidesToShow: 2,
+//         slidesToScroll: 2,
+//         dots: true,
+//         dotsClass: "custom-dots",
+//       },
+//     },
+//     {
+//       breakpoint: 480,
+//       settings: {
+//         slidesToShow: 2,
+//         slidesToScroll: 2,
+//         dots: true,
+//       },
+//     },
+//   ],
+// };
+
+{
+  /* <div className="container slidercntmobile">
         <div className="row">
           <div className="col-md-12">
             <CustomSlider {...settings}>
@@ -153,9 +163,5 @@ const SliderView = () => {
             </CustomSlider>
           </div>
         </div>
-      </div> */}
-    </>
-  );
-};
-
-export default SliderView;
+      </div> */
+}
