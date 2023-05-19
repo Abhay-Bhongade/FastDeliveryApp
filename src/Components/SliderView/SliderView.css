@@ -58,12 +58,17 @@
   font-size: 12px;
 }
 .slidercntmain img {
-  height: 80px !important;
+  height: 80px;
   width: 180px;
 }
 .wiximgselect {
-  width: 140px !important;
+  width: 180px !important;
   margin-left: 5rem !important;
+}
+
+.microslogoimg {
+  height: 60px !important;
+  margin-top: 10px !important;
 }
 
 /* @media screen and (max-width: 767px) {
@@ -104,5 +109,9 @@
   }
   .slick-dots {
     bottom: -13px !important;
+  }
+  .microslogoimg {
+    height: 50px !important;
+    margin-top: 10px !important;
   }
 }

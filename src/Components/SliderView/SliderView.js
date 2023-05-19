@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import wclogo from "../../Images/wclogo 2.svg";
+import wclogo2 from "../../Images/woocomm.png";
+
 import shophipysvg from "../../Images/shophipysvg.svg";
 import micros1 from "../../Images/micros1.svg";
 import oraclesvg from "../../Images/oraclesvg.svg";
 import wixsvg from "../../Images/wixsvg.svg";
 import sliderarrowsvg from "../../Images/sliderarrowsvg.svg";
+import microslogo from "../../Images/micros-logopng.png";
 import "./SliderView.css";
 import Slider from "react-slick";
 import CustomSlider from "react-slick";
@@ -43,7 +46,6 @@ const SliderView = () => {
       },
     ],
   };
-  
 
   return (
     <>
@@ -56,7 +58,7 @@ const SliderView = () => {
               </div>
 
               <div>
-                <img src={wclogo} className="wcimgselect" alt="..." />
+                <img src={wclogo2} className="wcimgselect" alt="..." />
               </div>
 
               <div>
@@ -65,7 +67,7 @@ const SliderView = () => {
 
               <div>
                 {" "}
-                <img src={micros1} alt="..." />
+                <img src={microslogo} alt="..." className="microslogoimg" />
               </div>
 
               <div>
