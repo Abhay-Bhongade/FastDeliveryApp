@@ -7,6 +7,10 @@ import micros1 from "../../Images/micros1.svg";
 import oraclesvg from "../../Images/oraclesvg.svg";
 import wixsvg from "../../Images/wixsvg.svg";
 import sliderarrowsvg from "../../Images/sliderarrowsvg.svg";
+import wixlogo2 from "../../Images/Wix.com_Logo2.png";
+import ShopifyLogo2 from "../../Images/ShopifyLogo2.png";
+import Oraclelogo from "../../Images/Oracle_logo.png";
+
 import microslogo from "../../Images/micros-logopng.png";
 import "./SliderView.css";
 import Slider from "react-slick";
@@ -54,7 +58,7 @@ const SliderView = () => {
           <div className="col-md-12">
             <Slider {...settings2} className="slidercntmain">
               <div>
-                <img src={shophipysvg} alt="..." />
+                <img src={ShopifyLogo2} alt="..." className="shopifyimgselect" />
               </div>
 
               <div>
@@ -62,7 +66,7 @@ const SliderView = () => {
               </div>
 
               <div>
-                <img src={oraclesvg} alt="..." />
+                <img src={Oraclelogo} alt="..." className="oracleimgselect" />
               </div>
 
               <div>
@@ -71,7 +75,7 @@ const SliderView = () => {
               </div>
 
               <div>
-                <img src={wixsvg} alt="..." className="wiximgselect" />
+                <img src={wixlogo2} alt="..." className="wiximgselect" />
               </div>
             </Slider>
           </div>

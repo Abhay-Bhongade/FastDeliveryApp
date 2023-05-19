@@ -64,11 +64,21 @@
 .wiximgselect {
   width: 180px !important;
   margin-left: 5rem !important;
+  height: 60px !important ;
+  margin-top: 10px !important;
 }
 
 .microslogoimg {
   height: 60px !important;
   margin-top: 10px !important;
+}
+.shopifyimgselect {
+  margin-top: 6px !important;
+}
+
+.oracleimgselect {
+  height: 40px !important;
+  margin-top: 15px !important;
 }
 
 /* @media screen and (max-width: 767px) {
@@ -113,5 +123,13 @@
   .microslogoimg {
     height: 50px !important;
     margin-top: 10px !important;
+  }
+  .shopifyimgselect {
+    height: 70px !important;
+    margin-top: 6px !important;
+  }
+  .oracleimgselect {
+    height: 30px !important;
+    margin-top: 25px !important;
   }
 }
